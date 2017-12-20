@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i');
+
+* {
+    font-family: "Playfair Display", serif;
+}
+
+#content {
+    text-align: center;
+}
+
+.hidden {
+    display: block;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.logo-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 560px;
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+.logo-wrapper, header {
+    margin-bottom: 60px;
+}
+
+header h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #999;
+}
+
+.imprint-logo-wrapper {
+    max-width: 150px;
+}
+
+.imprint-logo-wrapper img {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 200%;
+}
+
+#imprint {
+    padding: 45px;
+}
+
+@media only screen and (max-width: 500px) {
+    header h2 {
+        font-size: 1.2rem;
+    }
+}
